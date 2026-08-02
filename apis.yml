@@ -1,8 +1,23 @@
 aid: twenty20
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twenty20.png
 name: Twenty20
-description: Twenty20 is a company surfaced as a portfolio company of bullpen-capital, canaan-partners,
-  version-one-ventures and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: Twenty20 was a crowdsourced stock photography marketplace that sourced
+  authentic, mobile-first imagery from a community of smartphone photographers, backed
+  by Bullpen Capital, Canaan Partners, and Version One Ventures. The company was acquired
+  by Envato in 2021 and no longer operates a standalone product - twenty20.com now
+  permanently redirects to Envato Elements, and no public API, developer portal, or
+  first-party SDKs remain (probed 2026-07-21).
 url: https://raw.githubusercontent.com/api-evangelist/twenty20/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +27,18 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: envato
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Stock Photos
+- Photography
+- Creative Assets
+- Marketplace
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +47,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.twenty20.com
+  url: https://twenty20.com
+- type: DomainSecurity
+  url: security/twenty20-domain-security.yml
+- type: LLMsTxt
+  url: llms/twenty20-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
