@@ -57,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/envato/
+  name: Envato
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Envato in 2021 and no longer operates a standalone product - twenty20."
 - type: Website
   url: https://twenty20.com
 - type: DomainSecurity
