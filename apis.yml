@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://twenty20.com', status: 301, note: 'declared website redirects to https://elements.envato.com/ — a different registrable domain (twenty20.com -> envato.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twenty20.png
 name: Twenty20
 description: Twenty20 was a crowdsourced stock photography marketplace that sourced
