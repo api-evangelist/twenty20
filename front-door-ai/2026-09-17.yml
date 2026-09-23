@@ -1,0 +1,26 @@
+# Front Door AI Index — twenty20 — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: twenty20
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: twenty20.com
+  final_host: elements.envato.com
+  ownership: inherited
+  owner: twenty20
+  shares_host_with: null
+  inherited_from: envato.com
+  verdict: scored
+  score: null
+  host_score: 26
+  density: null
+  words: 606
+  tiers:
+    agentic: 4
+    core: 22
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 22
+    prompts: 4
